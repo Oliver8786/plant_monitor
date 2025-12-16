@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1007911854604",
+    "project_id": "plant-monitor1",
+    "storage_bucket": "plant-monitor1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007911854604:android:61a4f68e8de901ea118429",
+        "android_client_info": {
+          "package_name": "com.example.plant_monitor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007911854604-3gnva1dvmm8m0oql1g0pk0hp7mfm4529.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb_CLsGNjt8JOY56PXPw6O1hTfNlrJe3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1007911854604-3gnva1dvmm8m0oql1g0pk0hp7mfm4529.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1007911854604-39a1528r56rfh714g6auair97mr35812.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.plantMonitor"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
