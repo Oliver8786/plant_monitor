@@ -1,1 +1,49 @@
-{"hosting":{"public":"build/web","ignore":["firebase.json","**/.*","**/node_modules/**"]},"flutter":{"platforms":{"android":{"default":{"projectId":"plant-monitor1","appId":"1:1007911854604:android:61a4f68e8de901ea118429","fileOutput":"android/app/google-services.json"}},"ios":{"default":{"projectId":"plant-monitor1","appId":"1:1007911854604:ios:6a75a85b700655ed118429","uploadDebugSymbols":false,"fileOutput":"ios/Runner/GoogleService-Info.plist"}},"macos":{"default":{"projectId":"plant-monitor1","appId":"1:1007911854604:ios:6a75a85b700655ed118429","uploadDebugSymbols":false,"fileOutput":"macos/Runner/GoogleService-Info.plist"}},"dart":{"lib/firebase_options.dart":{"projectId":"plant-monitor1","configurations":{"android":"1:1007911854604:android:61a4f68e8de901ea118429","ios":"1:1007911854604:ios:6a75a85b700655ed118429","macos":"1:1007911854604:ios:6a75a85b700655ed118429","web":"1:1007911854604:web:3d36becd8ab6084d118429","windows":"1:1007911854604:web:4ee48198c9cd38ed118429"}}}}}}
+{
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "plant-monitor1",
+          "appId": "1:1007911854604:android:61a4f68e8de901ea118429",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "plant-monitor1",
+          "appId": "1:1007911854604:ios:6a75a85b700655ed118429",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "plant-monitor1",
+          "appId": "1:1007911854604:ios:6a75a85b700655ed118429",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "plant-monitor1",
+          "configurations": {
+            "android": "1:1007911854604:android:61a4f68e8de901ea118429",
+            "ios": "1:1007911854604:ios:6a75a85b700655ed118429",
+            "macos": "1:1007911854604:ios:6a75a85b700655ed118429",
+            "web": "1:1007911854604:web:3d36becd8ab6084d118429",
+            "windows": "1:1007911854604:web:4ee48198c9cd38ed118429"
+          }
+        }
+      }
+    }
+  }
+}
