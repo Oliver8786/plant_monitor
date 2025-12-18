@@ -35,7 +35,7 @@ class DefaultFirebaseOptions {
     appId: '1:1007911854604:web:3d36becd8ab6084d118429',
     messagingSenderId: '1007911854604',
     projectId: 'plant-monitor1',
-    authDomain: 'plant-monitor1.firebaseapp.com',
+    authDomain: 'plants.smailes.xyz',
     storageBucket: 'plant-monitor1.firebasestorage.app',
     measurementId: 'G-JB1ZZDJ7CG',
   );
@@ -73,7 +73,7 @@ class DefaultFirebaseOptions {
     appId: '1:1007911854604:web:4ee48198c9cd38ed118429',
     messagingSenderId: '1007911854604',
     projectId: 'plant-monitor1',
-    authDomain: 'plant-monitor1.firebaseapp.com',
+    authDomain: 'plants.smailes.xyz',
     storageBucket: 'plant-monitor1.firebasestorage.app',
     measurementId: 'G-QE99HB9QBG',
   );
