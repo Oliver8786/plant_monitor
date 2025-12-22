@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:ui';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_auth/firebase_auth.dart';
-import 'login.dart';
 import 'widgets/moisture_chart.dart';
 import 'pages/plant_monitor_page.dart';
 
@@ -70,35 +68,7 @@ class PlantMonitorApp extends StatelessWidget {
         useMaterial3: true,
       ),
       themeMode: ThemeMode.system,
-      home: const AuthGate(),
-    );
-  }
-}
-
-
-/// Shows appropriate page depending on FirebaseAuth state.
-class AuthGate extends StatelessWidget {
-  const AuthGate({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return StreamBuilder<User?>(
-      stream: FirebaseAuth.instance.authStateChanges(),
-      builder: (context, snapshot) {
-        if (snapshot.connectionState == ConnectionState.waiting) {
-          // Show loading indicator while checking auth state
-          return const Scaffold(
-            body: Center(child: CircularProgressIndicator()),
-          );
-        }
-        if (snapshot.hasData && snapshot.data != null) {
-          // User is signed in
-          return PlantMonitorPage();
-        } else {
-          // User is NOT signed in
-          return LoginPage();
-        }
-      },
+      home: const PlantMonitorPage(),
     );
   }
 }
