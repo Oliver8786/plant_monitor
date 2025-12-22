@@ -36,7 +36,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '1007911854604',
     projectId: 'plant-monitor1',
     authDomain: 'plants.smailes.xyz',
-    storageBucket: 'plant-monitor1.appspot.com',
+    storageBucket: 'plant-monitor1.firebasestorage.app',
     measurementId: 'G-JB1ZZDJ7CG',
   );
 
